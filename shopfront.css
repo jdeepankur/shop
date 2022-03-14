@@ -1,0 +1,202 @@
+* {
+  font-family: Arial;
+}
+
+stock_list {
+  spacing: 0.1rem;
+  border-collapse: collapse;
+  display: table;
+  font-size: 1.3vw;
+}
+
+stock_item {
+  border-spacing: 0.4rem;
+  font-size: 1.5vw;
+  height: 4.7vh;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.5em;
+  display: table-row;
+}
+
+stock_item:nth-child(even) {background-color: #c3a2a5;}
+stock_item:nth-child(odd) {background-color: #f5fff3;}
+
+item_photo {
+  text-align: center;
+  vertical-align: middle;
+  border-spacing: 0.4rem;
+  padding: 0.5rem;
+  display: table-cell;
+}
+
+item_name {
+  vertical-align: middle;
+  border-spacing: 0.4rem;
+  padding: 0.5rem;
+  display: table-cell;
+}
+
+item_info {
+  vertical-align: middle;
+  border-spacing: 0.4rem;
+  padding: 0.5rem;
+  display: table-cell;
+}
+
+item_quantity {
+  text-align: center;
+  vertical-align: middle;
+  border-spacing: 0.4rem;
+  padding: 0.5rem;
+  display: table-cell;
+}
+
+item_price {
+  text-align: right;
+  vertical-align: middle;
+  border-spacing: 0.4rem;
+  padding: 0.5rem;
+  display: table-cell;
+}
+
+line_cost {
+  border-spacing: 0.4rem;
+  text-align: right;
+  vertical-align: middle;
+  padding: 0.5rem;
+  display: table-cell;
+}
+
+h1 h3 {
+  font-size: 1.23vw;
+  color: gray;
+  margin-top: 0.4vw;
+  margin-bottom: 0vw;
+}
+
+h1 {
+  font-size: 2.0vw;
+  color: black;
+}
+
+.heading {
+  background-color: blue;
+  color: white;
+}
+
+.column-left {
+  float: left;
+  width: 55%;
+}
+
+.column-right {
+  float: right;
+  width: 45%;
+}
+
+
+.no {
+  /*Based on concepts explained under the CSS Advanced section of w3schools*/
+	background:linear-gradient(to top, #c62d1f 2%, #f24437 100%);
+  border:0.1px solid #d02718;
+	background-color:#c62d1f;
+  text-shadow:0vw 0.1vw 0vw #810e05;
+  box-shadow: 0.3vw 0.4vw 0vw 0vw #8a2a21;
+}
+.no:hover {
+	background:linear-gradient(to top, #f24437 2%, #c62d1f 100%);
+	background-color:#f24437;
+}
+
+.yes {
+  /*Based on concepts explained under the CSS Advanced section of w3schools*/
+	background:linear-gradient(to top, #77b55a 2%, #72b352 100%);
+  border:0.1vw solid #4b8f29;
+	background-color:#77b55a;
+  text-shadow:0vw 0.1vw 0vw #314327;
+  box-shadow: 0.3vw 0.4vw 0vw 0vw #3e7327;
+}
+
+.yes:hover {
+	background:linear-gradient(to top, #72b352 2%, #77b55a 100%);
+	background-color:#72b352;
+}
+
+tr:nth-child(even) {background-color: #b2e2f2;}
+
+p{
+  font-size: 1.5vw;
+  height: 4.7vh;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.5em;
+}
+
+p:nth-child(odd) {background-color: #f1e2b3;}
+
+p:nth-child(even) {background-color: #eeeeee;}
+
+input[type="submit"] {
+  /*Based on concepts explained under the CSS Advanced section of w3schools*/
+	background:linear-gradient(to top, #599bb3 2%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:1.8vw;
+	border:0.1vw solid #29668f;
+	display:inline-block;
+	color:#ffffff;
+	font-size:1.7vw;
+	padding:0.7vw 2.5vw;
+	text-shadow:0vw 0.1vw 0vw #3d768a;
+  box-shadow: 0.0vw 0.4vw 0vw 0vw #276873;
+}
+input[type="submit"]:hover {
+	background:linear-gradient(to top, #408c99 2%, #599bb3 100%);
+	background-color:#408c99;
+}
+input[type="submit"]:active {
+	position:relative;
+	top:0.1vw;
+}
+
+p input {
+  width: 40%;
+  height: 80%;
+  box-sizing: border-box;
+}
+
+p select {
+  width: 30%;
+  height: 80%;
+  box-sizing: border-box;
+}
+
+item_quantity input {
+  width: 50%;
+  height: 10%;
+  box-sizing: border-box;
+  font-size: 1.3vw;
+}
+
+td {
+  font-size: 1.1vw;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  /*Based on concepts explained under the CSS Advanced section of w3schools*/
+  border-radius:1.8vw;
+	display:inline-block;
+	color:#ffffff;
+	font-size:1.7vw;
+	padding:0.7vw 2.5vw;
+}
+
+button:active {
+	position:relative;
+	top:0.1vw;
+}
